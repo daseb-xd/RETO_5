@@ -39,3 +39,20 @@ def main():
 
 main()
 ```
+El output es el siguiente:
+```Python
+Vertices: [Point(0, 0), Point(3, 0), Point(3, 4)]
+Edges: [Line(Point(0, 0), Point(3, 0)), Line(Point(3, 0), Point(3, 4)), Line(Point(3, 4), Point(0, 0))]
+Area: 6.0
+Perimeter: 12.0
+Inner Angles: [36.87, 53.13, 90.0]
+
+Square Properties:
+Vertices: [Point(0, 0), Point(1, 0), Point(1, 1), Point(0, 1)]
+Edges: [Line(Point(0, 0), Point(1, 0)), Line(Point(1, 0), Point(1, 1)), Line(Point(1, 1), Point(0, 1)), Line(Point(0, 1), Point(0, 0))]
+Area: 1.0
+Perimeter: 4.0
+Inner Angles: [90, 90, 90, 90]
+```
+
+Así, es posible usar todo el código de ```Shape.py``` sin necesidad de ponerlo todo en ```main.py```
